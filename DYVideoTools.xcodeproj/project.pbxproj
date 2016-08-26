@@ -1,0 +1,641 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB0B06291D701A75001D0A87 /* DYUVideoCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB0B06281D701A75001D0A87 /* DYUVideoCollectionViewController.m */; };
+		AB0B062C1D701BCF001D0A87 /* DYUToolViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB0B062B1D701BCF001D0A87 /* DYUToolViewController.m */; };
+		AB4CCCE51D6FD65A009D3EAB /* DYUHomeTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB4CCCE41D6FD65A009D3EAB /* DYUHomeTabBarViewController.m */; };
+		AB4CCCE81D6FD785009D3EAB /* DYUHomeNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB4CCCE71D6FD785009D3EAB /* DYUHomeNavigationController.m */; };
+		ABB79CB01D6EDAD200B786AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB79CAF1D6EDAD200B786AB /* main.m */; };
+		ABB79CB31D6EDAD200B786AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB79CB21D6EDAD200B786AB /* AppDelegate.m */; };
+		ABB79CB91D6EDAD200B786AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABB79CB71D6EDAD200B786AB /* Main.storyboard */; };
+		ABB79CBB1D6EDAD200B786AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABB79CBA1D6EDAD200B786AB /* Assets.xcassets */; };
+		ABB79CBE1D6EDAD200B786AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABB79CBC1D6EDAD200B786AB /* LaunchScreen.storyboard */; };
+		ABB79CC91D6EDAD300B786AB /* DYVideoToolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB79CC81D6EDAD300B786AB /* DYVideoToolsTests.m */; };
+		ABB79CD41D6EDAD300B786AB /* DYVideoToolsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB79CD31D6EDAD300B786AB /* DYVideoToolsUITests.m */; };
+		ABB79CE81D6EDD9B00B786AB /* DYUBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB79CE71D6EDD9B00B786AB /* DYUBaseViewController.m */; };
+		ABB79CED1D6EE59A00B786AB /* DYUToolsView.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB79CEC1D6EE59A00B786AB /* DYUToolsView.m */; };
+		ABB79CF01D6EEA8300B786AB /* DYUHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB79CEF1D6EEA8300B786AB /* DYUHomeViewController.m */; };
+		ABB79CF41D6EF7C900B786AB /* DYUHomeCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABB79CF31D6EF7C900B786AB /* DYUHomeCollectionCell.xib */; };
+		ABB79CF61D6EFCEC00B786AB /* 01.png in Resources */ = {isa = PBXBuildFile; fileRef = ABB79CF51D6EFCEC00B786AB /* 01.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ABB79CC51D6EDAD300B786AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABB79CA31D6EDAD200B786AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABB79CAA1D6EDAD200B786AB;
+			remoteInfo = DYVideoTools;
+		};
+		ABB79CD01D6EDAD300B786AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABB79CA31D6EDAD200B786AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABB79CAA1D6EDAD200B786AB;
+			remoteInfo = DYVideoTools;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB0B06271D701A75001D0A87 /* DYUVideoCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYUVideoCollectionViewController.h; sourceTree = "<group>"; };
+		AB0B06281D701A75001D0A87 /* DYUVideoCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYUVideoCollectionViewController.m; sourceTree = "<group>"; };
+		AB0B062A1D701BCF001D0A87 /* DYUToolViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYUToolViewController.h; sourceTree = "<group>"; };
+		AB0B062B1D701BCF001D0A87 /* DYUToolViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYUToolViewController.m; sourceTree = "<group>"; };
+		AB4CCCE31D6FD65A009D3EAB /* DYUHomeTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYUHomeTabBarViewController.h; sourceTree = "<group>"; };
+		AB4CCCE41D6FD65A009D3EAB /* DYUHomeTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYUHomeTabBarViewController.m; sourceTree = "<group>"; };
+		AB4CCCE61D6FD785009D3EAB /* DYUHomeNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYUHomeNavigationController.h; sourceTree = "<group>"; };
+		AB4CCCE71D6FD785009D3EAB /* DYUHomeNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYUHomeNavigationController.m; sourceTree = "<group>"; };
+		ABB79CAB1D6EDAD200B786AB /* DYVideoTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DYVideoTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABB79CAF1D6EDAD200B786AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ABB79CB11D6EDAD200B786AB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ABB79CB21D6EDAD200B786AB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ABB79CB81D6EDAD200B786AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ABB79CBA1D6EDAD200B786AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ABB79CBD1D6EDAD200B786AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ABB79CBF1D6EDAD200B786AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABB79CC41D6EDAD300B786AB /* DYVideoToolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DYVideoToolsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABB79CC81D6EDAD300B786AB /* DYVideoToolsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYVideoToolsTests.m; sourceTree = "<group>"; };
+		ABB79CCA1D6EDAD300B786AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABB79CCF1D6EDAD300B786AB /* DYVideoToolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DYVideoToolsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABB79CD31D6EDAD300B786AB /* DYVideoToolsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYVideoToolsUITests.m; sourceTree = "<group>"; };
+		ABB79CD51D6EDAD300B786AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABB79CE61D6EDD9B00B786AB /* DYUBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYUBaseViewController.h; sourceTree = "<group>"; };
+		ABB79CE71D6EDD9B00B786AB /* DYUBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYUBaseViewController.m; sourceTree = "<group>"; };
+		ABB79CEB1D6EE59A00B786AB /* DYUToolsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYUToolsView.h; sourceTree = "<group>"; };
+		ABB79CEC1D6EE59A00B786AB /* DYUToolsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYUToolsView.m; sourceTree = "<group>"; };
+		ABB79CEE1D6EEA8300B786AB /* DYUHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYUHomeViewController.h; sourceTree = "<group>"; };
+		ABB79CEF1D6EEA8300B786AB /* DYUHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYUHomeViewController.m; sourceTree = "<group>"; };
+		ABB79CF11D6EED5E00B786AB /* DYUImageNamesDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYUImageNamesDefine.h; sourceTree = "<group>"; };
+		ABB79CF31D6EF7C900B786AB /* DYUHomeCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DYUHomeCollectionCell.xib; sourceTree = "<group>"; };
+		ABB79CF51D6EFCEC00B786AB /* 01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 01.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABB79CA81D6EDAD200B786AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABB79CC11D6EDAD300B786AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABB79CCC1D6EDAD300B786AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB0B06241D6FE01A001D0A87 /* BaseVC */ = {
+			isa = PBXGroup;
+			children = (
+				ABB79CE61D6EDD9B00B786AB /* DYUBaseViewController.h */,
+				ABB79CE71D6EDD9B00B786AB /* DYUBaseViewController.m */,
+			);
+			name = BaseVC;
+			sourceTree = "<group>";
+		};
+		AB0B06261D6FE217001D0A87 /* VideoPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				AB0B06271D701A75001D0A87 /* DYUVideoCollectionViewController.h */,
+				AB0B06281D701A75001D0A87 /* DYUVideoCollectionViewController.m */,
+			);
+			name = VideoPlayer;
+			sourceTree = "<group>";
+		};
+		AB4CCCDF1D6FD605009D3EAB /* HomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AB4CCCE31D6FD65A009D3EAB /* DYUHomeTabBarViewController.h */,
+				AB4CCCE41D6FD65A009D3EAB /* DYUHomeTabBarViewController.m */,
+				AB4CCCE61D6FD785009D3EAB /* DYUHomeNavigationController.h */,
+				AB4CCCE71D6FD785009D3EAB /* DYUHomeNavigationController.m */,
+				ABB79CEE1D6EEA8300B786AB /* DYUHomeViewController.h */,
+				ABB79CEF1D6EEA8300B786AB /* DYUHomeViewController.m */,
+			);
+			name = HomeViewController;
+			sourceTree = "<group>";
+		};
+		ABB79CA21D6EDAD200B786AB = {
+			isa = PBXGroup;
+			children = (
+				ABB79CF21D6EF79A00B786AB /* Xibs */,
+				ABB79CE91D6EE4F800B786AB /* Views */,
+				ABB79CE51D6EDD6F00B786AB /* ViewControllers */,
+				ABB79CAD1D6EDAD200B786AB /* DYVideoTools */,
+				ABB79CC71D6EDAD300B786AB /* DYVideoToolsTests */,
+				ABB79CD21D6EDAD300B786AB /* DYVideoToolsUITests */,
+				ABB79CAC1D6EDAD200B786AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABB79CAC1D6EDAD200B786AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABB79CAB1D6EDAD200B786AB /* DYVideoTools.app */,
+				ABB79CC41D6EDAD300B786AB /* DYVideoToolsTests.xctest */,
+				ABB79CCF1D6EDAD300B786AB /* DYVideoToolsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABB79CAD1D6EDAD200B786AB /* DYVideoTools */ = {
+			isa = PBXGroup;
+			children = (
+				ABB79CB11D6EDAD200B786AB /* AppDelegate.h */,
+				ABB79CB21D6EDAD200B786AB /* AppDelegate.m */,
+				ABB79CF51D6EFCEC00B786AB /* 01.png */,
+				ABB79CB71D6EDAD200B786AB /* Main.storyboard */,
+				ABB79CBA1D6EDAD200B786AB /* Assets.xcassets */,
+				ABB79CBC1D6EDAD200B786AB /* LaunchScreen.storyboard */,
+				ABB79CBF1D6EDAD200B786AB /* Info.plist */,
+				ABB79CAE1D6EDAD200B786AB /* Supporting Files */,
+				ABB79CF11D6EED5E00B786AB /* DYUImageNamesDefine.h */,
+			);
+			path = DYVideoTools;
+			sourceTree = "<group>";
+		};
+		ABB79CAE1D6EDAD200B786AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABB79CAF1D6EDAD200B786AB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ABB79CC71D6EDAD300B786AB /* DYVideoToolsTests */ = {
+			isa = PBXGroup;
+			children = (
+				ABB79CC81D6EDAD300B786AB /* DYVideoToolsTests.m */,
+				ABB79CCA1D6EDAD300B786AB /* Info.plist */,
+			);
+			path = DYVideoToolsTests;
+			sourceTree = "<group>";
+		};
+		ABB79CD21D6EDAD300B786AB /* DYVideoToolsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ABB79CD31D6EDAD300B786AB /* DYVideoToolsUITests.m */,
+				ABB79CD51D6EDAD300B786AB /* Info.plist */,
+			);
+			path = DYVideoToolsUITests;
+			sourceTree = "<group>";
+		};
+		ABB79CE51D6EDD6F00B786AB /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				AB0B06241D6FE01A001D0A87 /* BaseVC */,
+				AB0B06261D6FE217001D0A87 /* VideoPlayer */,
+				AB4CCCDF1D6FD605009D3EAB /* HomeViewController */,
+			);
+			name = ViewControllers;
+			path = DYVideoTools;
+			sourceTree = "<group>";
+		};
+		ABB79CE91D6EE4F800B786AB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ABB79CEA1D6EE51400B786AB /* Tools */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		ABB79CEA1D6EE51400B786AB /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				ABB79CEB1D6EE59A00B786AB /* DYUToolsView.h */,
+				ABB79CEC1D6EE59A00B786AB /* DYUToolsView.m */,
+				AB0B062A1D701BCF001D0A87 /* DYUToolViewController.h */,
+				AB0B062B1D701BCF001D0A87 /* DYUToolViewController.m */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+		ABB79CF21D6EF79A00B786AB /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				ABB79CF31D6EF7C900B786AB /* DYUHomeCollectionCell.xib */,
+			);
+			name = Xibs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABB79CAA1D6EDAD200B786AB /* DYVideoTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABB79CD81D6EDAD300B786AB /* Build configuration list for PBXNativeTarget "DYVideoTools" */;
+			buildPhases = (
+				ABB79CA71D6EDAD200B786AB /* Sources */,
+				ABB79CA81D6EDAD200B786AB /* Frameworks */,
+				ABB79CA91D6EDAD200B786AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DYVideoTools;
+			productName = DYVideoTools;
+			productReference = ABB79CAB1D6EDAD200B786AB /* DYVideoTools.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ABB79CC31D6EDAD300B786AB /* DYVideoToolsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABB79CDB1D6EDAD300B786AB /* Build configuration list for PBXNativeTarget "DYVideoToolsTests" */;
+			buildPhases = (
+				ABB79CC01D6EDAD300B786AB /* Sources */,
+				ABB79CC11D6EDAD300B786AB /* Frameworks */,
+				ABB79CC21D6EDAD300B786AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABB79CC61D6EDAD300B786AB /* PBXTargetDependency */,
+			);
+			name = DYVideoToolsTests;
+			productName = DYVideoToolsTests;
+			productReference = ABB79CC41D6EDAD300B786AB /* DYVideoToolsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ABB79CCE1D6EDAD300B786AB /* DYVideoToolsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABB79CDE1D6EDAD300B786AB /* Build configuration list for PBXNativeTarget "DYVideoToolsUITests" */;
+			buildPhases = (
+				ABB79CCB1D6EDAD300B786AB /* Sources */,
+				ABB79CCC1D6EDAD300B786AB /* Frameworks */,
+				ABB79CCD1D6EDAD300B786AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABB79CD11D6EDAD300B786AB /* PBXTargetDependency */,
+			);
+			name = DYVideoToolsUITests;
+			productName = DYVideoToolsUITests;
+			productReference = ABB79CCF1D6EDAD300B786AB /* DYVideoToolsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABB79CA31D6EDAD200B786AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = qiyun;
+				TargetAttributes = {
+					ABB79CAA1D6EDAD200B786AB = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = VLZ8G467JP;
+						ProvisioningStyle = Automatic;
+					};
+					ABB79CC31D6EDAD300B786AB = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ABB79CAA1D6EDAD200B786AB;
+					};
+					ABB79CCE1D6EDAD300B786AB = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ABB79CAA1D6EDAD200B786AB;
+					};
+				};
+			};
+			buildConfigurationList = ABB79CA61D6EDAD200B786AB /* Build configuration list for PBXProject "DYVideoTools" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABB79CA21D6EDAD200B786AB;
+			productRefGroup = ABB79CAC1D6EDAD200B786AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABB79CAA1D6EDAD200B786AB /* DYVideoTools */,
+				ABB79CC31D6EDAD300B786AB /* DYVideoToolsTests */,
+				ABB79CCE1D6EDAD300B786AB /* DYVideoToolsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABB79CA91D6EDAD200B786AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABB79CF61D6EFCEC00B786AB /* 01.png in Resources */,
+				ABB79CBE1D6EDAD200B786AB /* LaunchScreen.storyboard in Resources */,
+				ABB79CF41D6EF7C900B786AB /* DYUHomeCollectionCell.xib in Resources */,
+				ABB79CBB1D6EDAD200B786AB /* Assets.xcassets in Resources */,
+				ABB79CB91D6EDAD200B786AB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABB79CC21D6EDAD300B786AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABB79CCD1D6EDAD300B786AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABB79CA71D6EDAD200B786AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB4CCCE51D6FD65A009D3EAB /* DYUHomeTabBarViewController.m in Sources */,
+				ABB79CF01D6EEA8300B786AB /* DYUHomeViewController.m in Sources */,
+				ABB79CE81D6EDD9B00B786AB /* DYUBaseViewController.m in Sources */,
+				ABB79CB31D6EDAD200B786AB /* AppDelegate.m in Sources */,
+				ABB79CB01D6EDAD200B786AB /* main.m in Sources */,
+				AB0B06291D701A75001D0A87 /* DYUVideoCollectionViewController.m in Sources */,
+				AB4CCCE81D6FD785009D3EAB /* DYUHomeNavigationController.m in Sources */,
+				ABB79CED1D6EE59A00B786AB /* DYUToolsView.m in Sources */,
+				AB0B062C1D701BCF001D0A87 /* DYUToolViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABB79CC01D6EDAD300B786AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABB79CC91D6EDAD300B786AB /* DYVideoToolsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABB79CCB1D6EDAD300B786AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABB79CD41D6EDAD300B786AB /* DYVideoToolsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABB79CC61D6EDAD300B786AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABB79CAA1D6EDAD200B786AB /* DYVideoTools */;
+			targetProxy = ABB79CC51D6EDAD300B786AB /* PBXContainerItemProxy */;
+		};
+		ABB79CD11D6EDAD300B786AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABB79CAA1D6EDAD200B786AB /* DYVideoTools */;
+			targetProxy = ABB79CD01D6EDAD300B786AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ABB79CB71D6EDAD200B786AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABB79CB81D6EDAD200B786AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ABB79CBC1D6EDAD200B786AB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABB79CBD1D6EDAD200B786AB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABB79CD61D6EDAD300B786AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ABB79CD71D6EDAD300B786AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABB79CD91D6EDAD300B786AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VLZ8G467JP;
+				INFOPLIST_FILE = DYVideoTools/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.douyu.tv.application.DYVideoTools;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ABB79CDA1D6EDAD300B786AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VLZ8G467JP;
+				INFOPLIST_FILE = DYVideoTools/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.douyu.tv.application.DYVideoTools;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ABB79CDC1D6EDAD300B786AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DYVideoToolsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.douyu.tv.application.DYVideoToolsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DYVideoTools.app/DYVideoTools";
+			};
+			name = Debug;
+		};
+		ABB79CDD1D6EDAD300B786AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DYVideoToolsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.douyu.tv.application.DYVideoToolsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DYVideoTools.app/DYVideoTools";
+			};
+			name = Release;
+		};
+		ABB79CDF1D6EDAD300B786AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DYVideoToolsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.douyu.tv.application.DYVideoToolsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DYVideoTools;
+			};
+			name = Debug;
+		};
+		ABB79CE01D6EDAD300B786AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DYVideoToolsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.douyu.tv.application.DYVideoToolsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DYVideoTools;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABB79CA61D6EDAD200B786AB /* Build configuration list for PBXProject "DYVideoTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABB79CD61D6EDAD300B786AB /* Debug */,
+				ABB79CD71D6EDAD300B786AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABB79CD81D6EDAD300B786AB /* Build configuration list for PBXNativeTarget "DYVideoTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABB79CD91D6EDAD300B786AB /* Debug */,
+				ABB79CDA1D6EDAD300B786AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABB79CDB1D6EDAD300B786AB /* Build configuration list for PBXNativeTarget "DYVideoToolsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABB79CDC1D6EDAD300B786AB /* Debug */,
+				ABB79CDD1D6EDAD300B786AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABB79CDE1D6EDAD300B786AB /* Build configuration list for PBXNativeTarget "DYVideoToolsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABB79CDF1D6EDAD300B786AB /* Debug */,
+				ABB79CE01D6EDAD300B786AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABB79CA31D6EDAD200B786AB /* Project object */;
+}
